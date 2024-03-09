@@ -521,7 +521,7 @@
   .separator {
     border: 1px solid white;
     width: 100%; /* Línea horizontal al 100% del ancho del contenedor */
-    margin: 10px 0; /* Espaciado superior e inferior */
+    margin: 10px 0; 
   }
   
   .redes {
