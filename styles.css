@@ -1,0 +1,546 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+  
+  body {
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .contenedor{
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+  
+  header {
+    background-color: #eaca1c;
+  }
+  
+  .logo {
+    height: 40px;
+  }
+  
+  .header_menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header_nav{
+    height: var(--header);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  
+  .header_list{
+    display: flex;  
+    align-items:center;
+    list-style: none;
+  }
+  .header_item{
+    padding: 24px;
+  }
+  .nav__link{
+    color: #000;
+    text-decoration: none;
+    font-weight: 700;
+  }
+  
+  
+  
+  /**----------------------
+  -----Primera Seccion-----
+  ----------------------**/
+  
+  
+  .primero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  
+  .contenidouno{
+    flex: 1;
+    max-width: 500px;
+    margin: 0 100px;
+  }
+  
+  .titulouno{
+    font-size: 5rem;
+  }
+  
+  .ReadUno{
+    display: flex;
+    gap: 1rem;
+    padding-top: 30px;
+  }
+  .ReadUnoClick{
+    background: #ead143;
+      padding: 12px 44px;
+      color: #000000;
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: 700;
+  }
+  
+  
+  /**----------------------
+  -----Segunda Seccion-----
+  ----------------------**/
+  
+  .containerparaelcubito{
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .container_cubito{
+    background-color: #e5e5e5;
+    display: flex;
+    border: solid 50px #e5e5e5;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: -220px;  
+    z-index: 4;
+    position: relative;
+  }
+  
+  .contenidodos{
+    margin: 35px;
+  }
+  
+  .titulodos{
+    color: #e8d673;
+    font-size: 3.5rem;
+  }
+  
+  .readdos{
+    display: flex;
+    gap: 1rem;
+    padding-top: 30px;
+  }
+  
+  .readclikcdos{
+    color: #000;
+    font-weight: 700;
+  }
+  
+  
+  .figuradosuno{
+    margin-left: 150px;
+    margin-top: 60px;
+  }
+  .figuradosdos{
+    margin: 20px;
+    margin-top: 60px;
+  }
+  
+  
+  /**----------------------
+  -----Tercera Seccion-----
+  ----------------------**/
+  
+  .contenedortercera{
+    background: #eaca1c;
+    display: flex;
+  }
+  
+  .titulotres{
+    margin-top: 300px;
+    font-size: 3rem;
+    max-width: 700px;
+    margin-bottom: 30px;
+  }
+  
+  .gridtres{
+    display: grid;
+    grid-template: 
+    "contenidotres imagentres imagentres"700px;
+  }
+  
+  .contenidotres{
+    grid-area: contenidotres;
+    margin: 20px;
+  }
+  
+  .readmoretres{
+    display: flex;
+    gap: 1rem;
+    padding-top: 30px;
+    margin-top: 20px;
+  }
+  
+  .readclicktres{
+    background: #000;
+    padding: 12px 44px;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .imagentres{
+    grid-area: imagentres;
+    margin: 10px;
+  }
+  
+  /**----------------------
+  ------Cuarta Seccion-----
+  ----------------------**/
+
+  .containerparaelcubitocuatro{
+    max-width: 1300px;
+    margin: 100px auto;
+  }
+  .container_cubitocuatro{
+    background-color: #e5e5e5;
+    display: flex;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .imagencuatro{
+    margin-bottom: -6px;
+  }
+  
+  .contenidocuatro{
+    margin: 40px;
+    margin-right: 700px;
+    
+  }
+  .titulocuatro{
+    color: #eaca1c;
+    font-size: 4rem;
+    margin-bottom: 20px;
+  }
+  
+  .contenidomujajaja{
+    margin-right: 100px;
+  }
+  
+  .imagencuarta{
+    margin-top: 90px;
+    margin-left: 250px;
+  }
+
+  /**----------------------
+  ------Quinta Seccion-----
+  ----------------------**/
+
+  .colorquinto{
+    background: #000;
+    height: 100vh;
+  }
+
+  .contenedorquinto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+
+  .tituloquinto{
+    color: #eaca1c;
+    margin-top: 50px;
+    text-transform: uppercase;
+  }
+
+  .letraquinto{
+    color: white;
+    max-width: 800px;
+    margin: 20px;
+    margin-bottom: 50px;
+  }
+
+  .imagenquinta{
+    margin-bottom: 50px;
+  }
+
+  /**----------------------
+  -------Sexta Seccion-----
+  ----------------------**/
+
+  .contenedorsexto{
+    max-width: 1500px;
+    margin: 150px auto;
+  }
+
+  .gridsexto{
+    display: grid;
+    grid-template: 
+    "todosjuntos contnido";
+  }
+
+  .imagensexto{
+    grid-area: todosjuntos;
+  }
+
+  .contenidosexto{
+    grid-area: contnido;
+    margin: 80px;
+    margin-top: 200px;
+  }
+
+  .titulosexto{
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+
+  .parrafosexto{
+    max-width: 450px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  /**----------------------
+  -----Septima Seccion-----
+  ----------------------**/
+
+  .contenedorseptimo{
+    background: #e5e5e5;
+    height: 100vh;
+    
+  }
+
+  .gridseptimo{
+    display: grid;
+    grid-template: 
+    "contsep imasep";
+  }
+
+  .contsep{
+    grid-area: contsep;
+    margin: 100px;
+    margin-top: 300px;
+  }
+
+  .imasep{
+    grid-area: imasep;
+    margin-top: 100px;
+  }
+
+  .tituloseptimo{
+    font-size: 4rem;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+
+  /**-----------------------
+  ------Octava Seccion------
+  -----------------------**/
+
+  .gridoctavo{
+    display: grid;
+    grid-template: 
+    "formu contfor";
+    margin: 150px;
+  }
+
+
+  .formulario {
+    grid-area: formu;
+    width: 600px;
+    background: #000;
+    color: white;
+    margin: 0px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .dividi{
+    display: grid;
+    grid-template: 
+    "nuno ndos"
+    "aeuno aedos";
+    gap: 10px;
+    margin-bottom: -30px;
+    margin-top: 30px;
+  }
+
+  .nuno{
+    grid-area: nuno;
+  }
+  .ndos{
+    grid-area: ndos;
+  }
+  .aeuno{
+    grid-area: aeuno;
+  }
+  .aedos{
+    grid-area: aedos;
+  }
+
+  .frm {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+
+  input, textarea {
+    padding: 5px;
+    border: 1px solid white;
+    border-radius: 3px;
+    background: black;
+    color: white;
+  }
+
+  textarea {
+    height: 150px;
+  }
+
+  .parraform {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-top: 20px;
+  }
+
+  .contform{
+    grid-area: contfor;
+    margin-left: 50px;
+    margin-top: 80px;
+  }
+
+  .titulooctavo{
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: #eaca1c;
+    margin-bottom: 20px;
+  }
+
+  .contoctavo{
+    font-size: 22px;
+    margin-bottom: 40px;
+  }
+
+  .suscribete{
+    display: flex;
+    gap: 1rem;
+    padding-top: 30px;
+  }
+  .suscribeteClick{
+    background: #000000;
+      padding: 12px 44px;
+      color: #ffffff;
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: 700;
+  }
+
+
+  /**-----------------------
+  ------Novena  Seccion-----
+  -----------------------**/
+
+  .colornoveno{
+    background: #eaca1c;
+    height: 100vh;
+  }
+
+
+  .titulonoveno{
+    margin-top: 50px;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+
+  .letranoveno{
+    margin: 20px;
+    margin-bottom: 50px;
+    font-size: 22px;
+  }
+
+  .contactn{
+    display: flex;
+    gap: 1rem;
+    padding-top: 30px;
+  }
+
+  
+  .contactclick{
+    background: #000000;
+      padding: 12px 44px;
+      color: #ffffff;
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: 700;
+  }
+
+
+  /**-----------------------
+  ------Footer  Seccion-----
+  -----------------------**/
+
+  .fonditofinal{
+    background-color: #000000; /* Fondo del footer */
+  padding: 20px; /* Espaciado interno del footer */
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  }
+
+
+  .finikitiki{
+    display: flex;
+    align-items: center;
+    
+  }
+
+  .griduull{
+    display: grid;
+    grid-template-areas: 
+    "contfooteruno, contfooterdos";
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+
+  .contfooteruno{
+    grid-area: contfooteruno;
+  }
+
+  .contfooterdos{
+    grid-area: contfooterdos;
+    margin-left: 150px;
+  }
+  .letricasfinal {
+    text-decoration: none;
+    color: #eaca1c;
+    font-size: 20px;
+  }
+
+  .separator {
+    border: 1px solid white;
+    width: 100%; /* Línea horizontal al 100% del ancho del contenedor */
+    margin: 10px 0; /* Espaciado superior e inferior */
+  }
+  
+  .redes {
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .separacionfinal{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  /* Estilos adicionales para los íconos, ajusta según sea necesario */
+  .bi {
+    font-size: 24px;
+    color: #eaca1c;
+  }
+
+  .copyxd{
+    color: #eaca1c;
+  }
